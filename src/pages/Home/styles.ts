@@ -59,6 +59,12 @@ export const Container = styled.div`
         -moz-appearance: textfield;
       }
 
+      .feedback {
+        display: inline-block;
+        color: ${({ theme }) => theme.COLORS.CYAN_50};
+        margin-bottom: 1.5rem;
+      }
+
       .btn-convert {
         font-size: 1.5rem;
         font-weight: bold;
@@ -72,7 +78,7 @@ export const Container = styled.div`
     }
 
     .result {
-      display: none;
+      display: inline-block;
       font-size: 1.5rem;
       font-weight: bold;
       color: ${({ theme }) => theme.COLORS.CYAN_50};
